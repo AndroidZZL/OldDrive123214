@@ -70,8 +70,6 @@ public class GuideActivity extends AppCompatActivity {
                         @Override
                         public void onClick(View v) {
                             Intent intent = new Intent(GuideActivity.this, MainActivity.class);
-                            //下面的跳转到6、7天作业的效果
-//							Intent intent = new Intent(GuideActivity.this, MainActivity1.class);
                             startActivity(intent);
                             finish();
                         }
