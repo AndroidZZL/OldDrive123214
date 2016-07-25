@@ -10,7 +10,17 @@
     tools:context=".activity.MainActivity">
 
     <TextView
+        android:id="@+id/main_tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="欢迎来到司机联盟" />
+    <Button
+        android:id="@+id/main_video_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_tv1"
+        android:layout_marginTop="20dp"
+        android:text="视频播放"/>
+
+
 </RelativeLayout>
